@@ -1,0 +1,6 @@
+#!/bin/bash
+# requires nodemon
+
+FILE=$1
+
+nodemon --quiet --watch $FILE --exec "clear && go run main.go"
